@@ -2,8 +2,12 @@
 
 
 int main() {
-	Zombie z;
-	
-	z.randomChump("Paco");
+	Zombie *z;
+
+	z = newZombie("Pepe");
+	z->announce();
+	delete z;
+
+	randomChump("Paco");
 	return 0;
 }

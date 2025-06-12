@@ -16,10 +16,11 @@ class Zombie {
 		void setName(std::string n);
 		std::string getName(void);
 		void announce(void);
-		void randomChump(std::string name);
-		Zombie* newZombie(std::string name);
+
 };
 
+void randomChump(std::string name);
+Zombie* newZombie(std::string name);
 // Primero, implemente una clase Zombie. Tiene un nombre de atributo de cadena privada.
 // Agregue una función miembro void announce (void); a la clase Zombi. Zombis
 // anunciarse de la siguiente manera:
