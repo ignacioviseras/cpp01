@@ -14,6 +14,6 @@ void HumanB::attack(void) {
 	if (_weapon)
 		std::cout << _name << " attack with " << _weapon->getType() << std::endl;
 	else
-		std::cout << _name << " no tiene un arma para atacar" << std::endl;
+		std::cout << _name << " dont have any weapon, cant attack" << std::endl;
 }
 

@@ -22,9 +22,3 @@ void Zombie::setName(std::string n) {
 std::string Zombie::getName(void) {
 	return this->_name;
 }
-
-void Zombie::kill( Zombie *z )
-{
-	std::cout << z->getName() << ": dead" << std::endl;
-	delete z;
-}

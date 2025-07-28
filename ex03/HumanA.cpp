@@ -1,9 +1,5 @@
 #include "HumanA.hpp"
 
-// HumanA::HumanA(const std::string& n, Weapon& w) {
-// 	_name = n;
-// 	_weapon = w;
-// }
 HumanA::HumanA(const std::string& n, Weapon& w) : _name(n), _weapon(w) {}
 
 

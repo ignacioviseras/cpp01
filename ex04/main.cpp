@@ -8,7 +8,8 @@
 // Debe abrir el archivo <nombre de archivo> y copiar su contenido en un archivo nuevo.
 // <nombre de archivo>.replace, reemplazando cada aparición de s1 con s2.
 
-// El uso de funciones de manipulación de archivos C está prohibido y se considerará trampa. Todo las funciones miembro de la clase std::string están permitidas, excepto reemplazar.
+// El uso de funciones de manipulación de archivos C está prohibido y se considerará trampa.
+//Todo las funciones miembro de la clase std::string están permitidas, excepto reemplazar.
 // Úsalos sabiamente!
 
 // Por supuesto, maneje entradas y errores inesperados. Debes crear y entregar tu
